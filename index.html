@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<form action="pagina02.html" method="get"><!-- -->
+		<table border="1">
+			<tr>
+				<td>ingrese nombre</td>
+				<td><input type="text" name="nom" maxlength="10" required autofocus></td>
+			</tr>
+			<tr>
+				<td>ingrese rut</td>
+				<td><input type="text" name="rut"></td>
+			</tr>
+			<tr>
+				<td>estado civil</td>
+				<td>
+					soltero<input type="radio" name="estado" value="soltero">
+					casado<input type="radio" name="estado" value="casado">
+					
+				</td>
+			<tr>
+				<td>vivienda</td>
+				<td><input type="checkbox" name="casa"></td>
+			</tr>
+			<tr>
+				<td>fecha</td>
+				<td><input type="date" name="fecha"></td>
+			</tr>
+			<tr>
+				<td>password</td>
+				<td><input type="password" name="pwd"></td>
+			</tr>
+			<tr>
+				<td>select</td>
+				<td>
+					
+					<select name="city">
+						<option value="25">paris</option>
+						<option value="23">madrid</option>
+						<option value="21">budapest</option>
+						<option value="55">cairo</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>color</td>
+				<td><input type="color" name="col" required></td>
+			</tr>
+			<tr>
+				<td>e-mail</td>
+				<td><input type="email" name="mail"></td>
+			</tr>
+			<tr>
+				<td>detalles</td>
+				<td><input type="text" name="det" value="ejemplo de solo lectura" readonly size="40"></td>
+			</tr>
+			<tr>
+				<td>detalles2</td>
+				<td><input type="text" name="det2" value="ejemplo de deshabilitado" disabled></td>
+			</tr>
+			<tr>
+				<td>detalles3</td>
+				<td><input type="text" name="det3" value="ejemplo oculto" hidden></td>
+			</tr>
+			<tr>
+				<td>numero</td>
+				<td><input type="number" name="num" min="10" max="100"></td>
+			</tr>
+
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" name="boton" value="enviar"></td>
+			</tr>
+			
+		</table>
+		
+
+	</form>
+
+</body>
+</html>
